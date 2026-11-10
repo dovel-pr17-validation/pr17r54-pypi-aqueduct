@@ -1,0 +1,16 @@
+*.egg-info
+*.py[co]
+.coverage
+__pycache__
+build/
+dist/
+
+# CFFI
+/aqueduct/shm/_atomic.*
+
+# IDE
+.idea
+
+# bench
+tests/benchmarks/bench_service/maas/data/models/
+.eggs*
